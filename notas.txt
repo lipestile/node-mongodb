@@ -32,3 +32,9 @@ Extenção importantes nos puglins do Vscode
 !!!!   Easy Snippet  !!!!!
 para essa extençao siga o passo a passo
 ctrl c no codigo que voce quer e usa o atalho crl + shift + p escrve na barra easy e clica na função add snippet from select....
+
+mongodb+srv://felipebalbino53:<password>@cluster0.ri3p7g6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+criar um arquivo na raiz para iginorar pasta node_module
+
+.gitignore (obrigatoriamente esse  nome)
