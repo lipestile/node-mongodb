@@ -41,3 +41,29 @@ criar um arquivo na raiz para iginorar pasta node_module
 
 yv775FDN2DIki0qS
 
+Por a senha e não comitar no github
+
+digitar esse codigo  npm i node@20.11.1
+ou desinstar e instalar a versão atual do node(mais confiavel)
+
+feiche o teminal e abra outro e rode o servidor
+na pasta Principal: crie um arquivo chamada .env
+no packtjson no script fassa isso
+
+"scripts": {
+    "dev": "nodemon --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  no index coloque isso 
+
+  
+const express = require("express");
+const { model } = require("mongoose");
+const router = express.Router();
+
+router.get('/', function(req, res){
+    res.json({"Mensagem":'Rodando'})
+})
+
+module.exports = router
