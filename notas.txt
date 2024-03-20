@@ -38,3 +38,6 @@ mongodb+srv://felipebalbino53:<password>@cluster0.ri3p7g6.mongodb.net/?retryWrit
 criar um arquivo na raiz para iginorar pasta node_module
 
 .gitignore (obrigatoriamente esse  nome)
+
+yv775FDN2DIki0qS
+
