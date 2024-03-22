@@ -39,6 +39,7 @@ criar um arquivo na raiz para iginorar pasta node_module
 
 .gitignore (obrigatoriamente esse  nome)
 
+felipebalbino53
 yv775FDN2DIki0qS
 
 Por a senha e não comitar no github
