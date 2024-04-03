@@ -1,3 +1,4 @@
+const { timeStamp } = require("console")
 const mongoose = require("mongoose")
 
 const produtoSchema = mongoose.Schema({
@@ -6,6 +7,9 @@ const produtoSchema = mongoose.Schema({
     tipo: String,
     tamanho: String
 
+},
+{
+  //  timeStamp: true, mostra data e hora.
 })
 
 const Produto = mongoose.model(`Produto`, produtoSchema)
